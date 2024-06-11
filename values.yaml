@@ -1,0 +1,16 @@
+replicaCount: 1
+
+image:
+  repository: tienlong1106/git_cicd_fe
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+
+env:
+  REACT_APP_API_KEY: "http://192.168.56.2:30852/students"
+
+namespace: vdt-final
