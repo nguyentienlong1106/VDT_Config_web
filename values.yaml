@@ -10,6 +10,7 @@ service:
   type: NodePort
   port: 80
   targetPort: 80
+  nodePort: 30911
 
 env:
   REACT_APP_API_KEY: "http://192.168.56.2:30852/students"
