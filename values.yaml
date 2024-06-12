@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   repository: tienlong1106/git_cicd_fe
-  tag:     latest
+  tag:      latest
   pullPolicy: IfNotPresent
 
 service:
