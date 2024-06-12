@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   repository: tienlong1106/git_cicd_fe
-  tag: v7
+  tag: v8
   pullPolicy: IfNotPresent
 
 service:
